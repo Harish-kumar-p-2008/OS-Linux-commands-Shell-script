@@ -387,7 +387,7 @@ uniq file22
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
- ## OUTPUT
+## OUTPUT
 <img width="652" height="243" alt="image" src="https://github.com/user-attachments/assets/3ebf1c6a-e041-451d-896d-062786c61b47" />
 
 cat < urllist.txt
@@ -683,6 +683,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+
 <img width="524" height="391" alt="image" src="https://github.com/user-attachments/assets/5e91c160-cec2-453b-a3c1-5a76df12cdf4" />
 
 # check if a file
@@ -733,6 +734,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+
 <img width="573" height="471" alt="image" src="https://github.com/user-attachments/assets/25fcf6e3-632e-40c9-9aa3-3f30798f1b19" />
 
 # looking for a possible value using elif
@@ -762,6 +764,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+
 <img width="573" height="471" alt="image" src="https://github.com/user-attachments/assets/22bac222-ed45-4f5f-ab2b-959f9f7f6de3" />
 
 
@@ -779,6 +782,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
 <img width="541" height="248" alt="image" src="https://github.com/user-attachments/assets/909ea603-6bfa-47f7-b0f4-bac024b7363e" />
 
 # using the case command
@@ -1109,8 +1113,9 @@ done
 set +x
 ```
 ## OUTPUT
+<img width="765" height="327" alt="image" src="https://github.com/user-attachments/assets/cae85762-59a1-4647-898c-33472e3b69ff" />
  ./argshift.sh 1 2 3
- <img width="765" height="327" alt="image" src="https://github.com/user-attachments/assets/cae85762-59a1-4647-898c-33472e3b69ff" />
+ 
 
  
 cat > nc.awk
