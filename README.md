@@ -511,11 +511,13 @@ echo $?
 ## OUTPUT 
 ./one
 bash: ./one: Permission denied
+
 <img width="285" height="54" alt="image" src="https://github.com/user-attachments/assets/1f0244f7-2a5d-41b9-8a46-6f75741ce9b5" />
  
 
 echo $?
 ## OUTPUT 
+
 <img width="285" height="54" alt="image" src="https://github.com/user-attachments/assets/c71f8516-4895-481e-8727-b7faec2d47d8" />
  
 abcd
@@ -555,6 +557,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+
 <img width="476" height="243" alt="image" src="https://github.com/user-attachments/assets/0c1c3575-f77a-47c1-a7f1-7ed1371bf77d" />
 
 
@@ -563,6 +566,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+
 <img width="725" height="222" alt="image" src="https://github.com/user-attachments/assets/3bff51df-2b03-42d4-b024-39a9d24967f3" />
 
 
@@ -591,6 +595,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+
 <img width="631" height="256" alt="image" src="https://github.com/user-attachments/assets/b34eced0-ba5a-4a45-bdc5-c29d6ecbb2fc" />
 
 # check if with file location
@@ -638,6 +643,8 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+
+
 <img width="524" height="391" alt="image" src="https://github.com/user-attachments/assets/8fbdc6b8-0beb-47c9-820f-e8614bef708e" />
 
 
