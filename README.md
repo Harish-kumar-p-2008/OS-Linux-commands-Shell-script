@@ -287,12 +287,14 @@ sed  -e '2s/Ram/Sita/' file23
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+
 <img width="555" height="245" alt="image" src="https://github.com/user-attachments/assets/766a29f5-5ea1-4f2c-9375-061002014fa5" />
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+
 <img width="481" height="169" alt="image" src="https://github.com/user-attachments/assets/53295913-7801-4913-86b2-60c347101b0e" />
 
 
@@ -306,52 +308,61 @@ sed -n -e '2,/Joe/p' file23
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+
 <img width="560" height="83" alt="image" src="https://github.com/user-attachments/assets/6082bc35-2566-4d2d-91a7-b4c14d1dcac3" />
 
 
 
 seq 10 
 ## OUTPUT
+
 <img width="470" height="241" alt="image" src="https://github.com/user-attachments/assets/7dcc2d24-0771-4884-9f5e-31ef344d9b80" />
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+
 <img width="468" height="97" alt="image" src="https://github.com/user-attachments/assets/6fa69641-7ce8-4adf-96bc-d56078831feb" />
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+
 <img width="468" height="97" alt="image" src="https://github.com/user-attachments/assets/32e93296-70a2-44ae-aba1-7b18c6a99ca1" />
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+
 <img width="476" height="116" alt="image" src="https://github.com/user-attachments/assets/ca819df8-4772-48c0-9a64-0953e6fe7c9c" />
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+
 <img width="478" height="94" alt="image" src="https://github.com/user-attachments/assets/ddafc1ad-48db-450b-b4f6-425fb93b4376" />
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+
 <img width="478" height="94" alt="image" src="https://github.com/user-attachments/assets/9a5b747c-ee28-4a18-a7a0-d5ec8af966c5" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+
 <img width="542" height="102" alt="image" src="https://github.com/user-attachments/assets/08804d07-924c-4b3b-9625-2fe25771cf43" />
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
 ## OUTPUT
+
 <img width="565" height="112" alt="image" src="https://github.com/user-attachments/assets/94d1985d-c124-454f-a6b4-1c208aaf9248" />
 
 
@@ -366,6 +377,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+
 <img width="343" height="156" alt="image" src="https://github.com/user-attachments/assets/d1c6a3cb-1acf-40e7-b154-56b9fc8b2bb4" />
 
 
@@ -380,6 +392,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+
 <img width="363" height="160" alt="image" src="https://github.com/user-attachments/assets/8bfe5082-fbd3-4899-a9e3-afff37cd1e46" />
 
 
@@ -388,6 +401,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
 ## OUTPUT
+
 <img width="652" height="243" alt="image" src="https://github.com/user-attachments/assets/3ebf1c6a-e041-451d-896d-062786c61b47" />
 
 cat < urllist.txt
@@ -460,6 +474,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+
 <img width="337" height="97" alt="image" src="https://github.com/user-attachments/assets/8f062ba5-bd8f-4218-b794-179d4a19ab04" />
 
 
@@ -1066,11 +1081,13 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
- ./funcex.sh 
+./funcex.sh 
+ 
  <img width="755" height="44" alt="image" src="https://github.com/user-attachments/assets/1def3f35-346d-4436-bfd4-39bda2d7f3de" />
 
  
- ./funcex.sh 1 2
+./funcex.sh 1 2
+
 <img width="762" height="38" alt="image" src="https://github.com/user-attachments/assets/b5c63f26-7ca4-4011-9925-8362d47253b8" />
 
  
