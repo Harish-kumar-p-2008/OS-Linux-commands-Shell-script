@@ -420,16 +420,22 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+![Image1](https://github.com/user-attachments/assets/0154c46c-d7cb-4bd9-a947-b7b514245de1)
+
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+
+![image 2](https://github.com/user-attachments/assets/edd50040-4f2f-44c4-9051-b54f9782b2e4)
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+
+![image 3](https://github.com/user-attachments/assets/a205f4ca-4428-4b21-96e8-9fa52c74bfe1)
 
 
 mkdir backupdir
@@ -441,17 +447,25 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+![image 3](https://github.com/user-attachments/assets/a205f4ca-4428-4b21-96e8-9fa52c74bfe1)
+
 
 tar -xvf backup.tar
 ## OUTPUT
+
+![image 4](https://github.com/user-attachments/assets/9117deaf-e64c-4ffd-8778-96cd437b228d)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
+
+![image 8](https://github.com/user-attachments/assets/9f2693fc-3408-4de0-8456-fa0bbfde0f16)
  
 gunzip backup.tar.gz
 ## OUTPUT
+
+![image 7](https://github.com/user-attachments/assets/b6216f29-f59a-4043-bfc4-ed61091789ed)
 
  
 # Shell Script
@@ -462,6 +476,8 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+
+![image 6](https://github.com/user-attachments/assets/6f455798-de9b-4413-a3ff-ee45db1316cc)
 
  
 cat << stop > herecheck.txt
@@ -1006,6 +1022,9 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+
+![image 9](https://github.com/user-attachments/assets/6eac4ac0-78fd-4917-ac91-9e5f6177651c)
+
 
 $ chmod 755 forbreak.sh
  
