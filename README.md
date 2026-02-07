@@ -530,11 +530,13 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+
 <img width="430" height="331" alt="image" src="https://github.com/user-attachments/assets/b36e6eb3-3d88-4e9c-a682-991fcbd80f4c" />
 
  
 ls file1
 ##OUTPUT
+
 <img width="285" height="54" alt="image" src="https://github.com/user-attachments/assets/c06aee84-a165-4eea-bc4c-a728fa76b5f3" />
 
 
@@ -956,6 +958,8 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+
+
 <img width="446" height="201" alt="image" src="https://github.com/user-attachments/assets/17d2dab3-1f52-4ec2-8e2c-8ecfa7a2f3d4" />
 
 
